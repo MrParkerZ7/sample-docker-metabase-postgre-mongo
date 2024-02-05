@@ -1,5 +1,5 @@
 node_modules/
-metabase-data/
+# metabase-data/
 mongodb-data/
 postgres-data/
 
