@@ -1,0 +1,21 @@
+{
+  "name": "lesson-metabase-progres-mongo",
+  "version": "1.0.0",
+  "description": "- ## Instrument    - run `docker-compose up`",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up",
+    "down": "docker-compose down",
+    "clean": "rm -rf metabase-data && rm -rf mongodb-data && rm -rf postgres-data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrParkerZ7/sample-metabase-postgre-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrParkerZ7/sample-metabase-postgre-mongo/issues"
+  },
+  "homepage": "https://github.com/MrParkerZ7/sample-metabase-postgre-mongo#readme"
+}

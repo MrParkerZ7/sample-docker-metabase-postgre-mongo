@@ -1,0 +1,4 @@
+- ## Instructions
+   - recommand `yarn` for node helper
+   - run `docker-compose up` or `yarn up` to start containers
+   - run `yarn clean` to clean up local data 

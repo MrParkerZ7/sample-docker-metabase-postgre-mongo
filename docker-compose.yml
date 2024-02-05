@@ -26,19 +26,21 @@ services:
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - 5432:5432
     environment:
       - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=1234
       - POSTGRES_DB=postgres
+      - POSTGRES_PASSWORD=1234
 
   mongo:
-    image: mongo:5.0.24
+    image: mongo:4.4
     ports:
-      - "27017:27017"
+      - 27017:27017
     volumes:
       - ./mongodb-data:/data/db
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=1234
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=123456
       - MONGO_INITDB_DATABASE=mongo
+      - MONGO_INITDB_USERNAME=admin
+      - MONGO_INITDB_PASSWORD=1234

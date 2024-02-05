@@ -1,3 +1,6 @@
+node_modules/
 metabase-data/
 mongodb-data/
 postgres-data/
+
+package-lock.json
