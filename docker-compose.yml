@@ -6,7 +6,7 @@ services:
     restart: always
     volumes:
       - ./metabase-data:/metabase-data
-      - ./driver/ojdbc11.jar:/plugins/jdbc-drivers/oracle-jdbc-driver.jar
+      - ./plugins:/plugins
     ports:
       - 3000:3000
     environment:
