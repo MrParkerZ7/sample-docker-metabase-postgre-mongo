@@ -6,7 +6,9 @@
   "scripts": {
     "up": "docker-compose up",
     "down": "docker-compose down",
-    "clean": "rm -rf metabase-data && rm -rf mongodb-data && rm -rf postgres-data"
+    "clean": "rm -rf metabase-data && rm -rf mongodb-data && rm -rf postgres-data",
+    "clean-meta": "rm -rf metabase-data",
+    "clean-db": "rm -rf mongodb-data && rm -rf postgres-data"
   },
   "repository": {
     "type": "git",
