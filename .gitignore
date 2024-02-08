@@ -1,7 +1,7 @@
 node_modules/
 mongodb-data/
 postgres-data/
-metabase-data/metabase.db/metabase.db.trace.db/
+metabase-data/metabase.db/metabase.db.trace.db
 plugins/sample-database.db.trace.db
 
 package-lock.json
