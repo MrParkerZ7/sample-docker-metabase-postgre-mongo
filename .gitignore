@@ -1,6 +1,6 @@
 node_modules/
-# metabase-data/
 mongodb-data/
 postgres-data/
+metabase-data/metabase.db/metabase.db.trace.db/
 
 package-lock.json
