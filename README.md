@@ -3,8 +3,10 @@
    - run `docker-compose up/down` or `yarn up/down` to start containers
    - run `yarn clean` or `yarn clean-meta` or `yarn clean-db` to clean up local data
 
-- ## Lessons Learn
+- ## Showcases
   - DB Connections ![sample-database-connection](images/sample-database-connection.png)
+     - docker setup
+     - database connection 
   - Basic Dashboard ![sample-basic-dashboard](images/sample-basic-dashboard.png)
   - Advance Dashboard ![sample-tracing-dashboard](images/sample-tracing-dashboard.png)
      - overflow ui
