@@ -4,7 +4,7 @@
   "description": "- ## Instrument    - run `docker-compose up`",
   "main": "index.js",
   "scripts": {
-    "up": "docker-compose up",
+    "up": "docker-compose up -d",
     "down": "docker-compose down",
     "clean": "rm -rf metabase-data && rm -rf mongodb-data && rm -rf postgres-data",
     "clean-meta": "rm -rf metabase-data",
