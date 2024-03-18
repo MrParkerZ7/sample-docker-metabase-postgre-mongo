@@ -22,3 +22,6 @@
   - admin
     - user: admin@gmail.com
     - pass: admin1234
+
+- ## Tags
+  - git | gitlab | metabase | docker | postgre | mongo
